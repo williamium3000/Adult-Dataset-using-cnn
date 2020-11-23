@@ -12,7 +12,12 @@ Train on 33916 pieces of data and test on 11306 pieces
 ## CNN architecture
 1D CNN(4) and then fc layer(2) 
 ## Results
-We compare L2 norm and without, Adam, SGD, and RMSprop. Graph shown 
+We compare L2 norm and without, Adam, SGD, and RMSprop. Graph shown below:
+![](result/loss.png)
+![](result/test_acc.png)
+
+## note
+Originally, I am using data preprocessing in https://github.com/saravrajavelu/Adult-Income-Analysis, but there seems to be some problem among it and loss keeps going to nan. I redo the preprocessing step and get the results.
 
 
 
