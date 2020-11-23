@@ -16,7 +16,7 @@ import json
 import logging
 import cnn
 import dataLoader
-logging.basicConfig(filename="test_run_rec_2.log", level=logging.INFO)
+logging.basicConfig(filename="test_run_rec_3.log", level=logging.INFO)
 def check_accuracy(device, loader, model, phase):
     logging.info('Checking accuracy on %s set: ' % phase)
     num_correct = 0
@@ -144,9 +144,9 @@ def display_one_batch(image_dataset, dataloader):
     imshow(out, title=[class_names[x] for x in classes])
 
 # configuration
-task_name = "1dcnn_SGD_no_L2"
+task_name = "1dcnn_RMSprop_no_L2"
 model_name = "1dcnn"
-optimizer_name = "SGD"
+optimizer_name = "RMSprop"
 lr = 0.001
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 epochs = 100
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
 
     # optimizer
-    optimizer = getattr(optim, optimizer_name)(params_to_update, lr=lr, weight_decay=0.001)
+    optimizer = getattr(optim, optimizer_name)(params_to_update, lr=lr)
     
     # dataLoaders
     dataLoaders = dataLoader.get_dataLoaders()
