@@ -16,7 +16,7 @@ import json
 import logging
 import cnn
 import dataLoader
-logging.basicConfig(filename="test_run_rec.log", level=logging.INFO)
+logging.basicConfig(filename="test_run_rec_2.log", level=logging.INFO)
 def check_accuracy(device, loader, model, phase):
     logging.info('Checking accuracy on %s set: ' % phase)
     num_correct = 0
@@ -96,7 +96,7 @@ def train(model, optimizer, dataloaders, device, epochs):
     logging.info('Best val Acc: {:4f}'.format(best_acc))
     # load best model weights
     model.load_state_dict(best_model_wts)
-    save_model(save_dir = "fine_grained_classification/Embedding_Label_Structures_for_Fine_Grained_Feature_Representation/model_checkpoint", whole_model = False, file_name = task_name, model = model)
+    save_model(save_dir = "model_checkpoint", whole_model = False, file_name = task_name, model = model)
     return model, best_acc, rec
 
 def save_model(save_dir, whole_model, file_name = None, model = None):
@@ -144,11 +144,11 @@ def display_one_batch(image_dataset, dataloader):
     imshow(out, title=[class_names[x] for x in classes])
 
 # configuration
-task_name = "test_run2"
+task_name = "1dcnn_SGD_no_L2"
 model_name = "1dcnn"
-optimizer_name = "Adam"
+optimizer_name = "SGD"
 lr = 0.001
-device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 epochs = 100
 logging.info(
     """{}:
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
 
     # optimizer
-    optimizer = getattr(optim, optimizer_name)(params_to_update, lr=lr)
+    optimizer = getattr(optim, optimizer_name)(params_to_update, lr=lr, weight_decay=0.001)
     
     # dataLoaders
     dataLoaders = dataLoader.get_dataLoaders()
@@ -192,8 +192,7 @@ if __name__ == "__main__":
                                     device = device, 
                                     epochs = epochs
                                     )
-    json.dump(open("rec_adam_no_L2.json", "w"), rec)
-    
+    json.dump(rec, open("{}.json".format(task_name), "w"))
     
     
 
