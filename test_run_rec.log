@@ -1,0 +1,770 @@
+INFO:root:1dcnn_Adam_no_L2:
+    - model name: 1dcnn
+    - optimizer: Adam
+    - learning rate: 0.001
+    - device : cuda:3
+    - epochs: 100
+ 
+INFO:root:epoche 0, loss = 1.040050
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26705 / 33856 correct (78.88)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8861 / 11264 correct (78.67)
+INFO:root:epoche 1, loss = 1.048137
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26300 / 33856 correct (77.68)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8749 / 11264 correct (77.67)
+INFO:root:epoche 2, loss = 0.725901
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26726 / 33856 correct (78.94)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8873 / 11264 correct (78.77)
+INFO:root:epoche 3, loss = 0.764443
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 25914 / 33856 correct (76.54)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8633 / 11264 correct (76.64)
+INFO:root:epoche 4, loss = 0.431644
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26797 / 33856 correct (79.15)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8892 / 11264 correct (78.94)
+INFO:root:epoche 5, loss = 0.783137
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26964 / 33856 correct (79.64)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8936 / 11264 correct (79.33)
+INFO:root:epoche 6, loss = 0.443167
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26787 / 33856 correct (79.12)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8899 / 11264 correct (79.00)
+INFO:root:epoche 7, loss = 0.474613
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26791 / 33856 correct (79.13)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8908 / 11264 correct (79.08)
+INFO:root:epoche 8, loss = 0.400242
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26713 / 33856 correct (78.90)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8827 / 11264 correct (78.36)
+INFO:root:epoche 9, loss = 0.505815
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26831 / 33856 correct (79.25)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8898 / 11264 correct (79.00)
+INFO:root:epoche 10, loss = 0.401487
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26930 / 33856 correct (79.54)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8865 / 11264 correct (78.70)
+INFO:root:epoche 11, loss = 0.378003
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27567 / 33856 correct (81.42)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9084 / 11264 correct (80.65)
+INFO:root:epoche 12, loss = 0.443820
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27729 / 33856 correct (81.90)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9153 / 11264 correct (81.26)
+INFO:root:epoche 13, loss = 0.564744
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27950 / 33856 correct (82.56)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9228 / 11264 correct (81.92)
+INFO:root:epoche 14, loss = 0.419890
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27978 / 33856 correct (82.64)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9216 / 11264 correct (81.82)
+INFO:root:epoche 15, loss = 0.332234
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27855 / 33856 correct (82.27)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9200 / 11264 correct (81.68)
+INFO:root:epoche 16, loss = 0.313490
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28069 / 33856 correct (82.91)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9243 / 11264 correct (82.06)
+INFO:root:epoche 17, loss = 0.273998
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27899 / 33856 correct (82.40)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9194 / 11264 correct (81.62)
+INFO:root:epoche 18, loss = 0.375055
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27846 / 33856 correct (82.25)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9160 / 11264 correct (81.32)
+INFO:root:epoche 19, loss = 0.492153
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28034 / 33856 correct (82.80)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9216 / 11264 correct (81.82)
+INFO:root:epoche 20, loss = 0.352160
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28019 / 33856 correct (82.76)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9232 / 11264 correct (81.96)
+INFO:root:epoche 21, loss = 0.310641
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27990 / 33856 correct (82.67)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9228 / 11264 correct (81.92)
+INFO:root:epoche 22, loss = 0.372447
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28167 / 33856 correct (83.20)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9312 / 11264 correct (82.67)
+INFO:root:epoche 23, loss = 0.402585
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27870 / 33856 correct (82.32)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9200 / 11264 correct (81.68)
+INFO:root:epoche 24, loss = 0.477122
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27801 / 33856 correct (82.12)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9138 / 11264 correct (81.13)
+INFO:root:epoche 25, loss = 0.496096
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28154 / 33856 correct (83.16)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9295 / 11264 correct (82.52)
+INFO:root:epoche 26, loss = 0.354961
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28097 / 33856 correct (82.99)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9278 / 11264 correct (82.37)
+INFO:root:epoche 27, loss = 0.412765
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28322 / 33856 correct (83.65)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9362 / 11264 correct (83.11)
+INFO:root:epoche 28, loss = 0.450097
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27996 / 33856 correct (82.69)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9236 / 11264 correct (82.00)
+INFO:root:epoche 29, loss = 0.457932
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28296 / 33856 correct (83.58)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9352 / 11264 correct (83.03)
+INFO:root:epoche 30, loss = 0.419684
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28000 / 33856 correct (82.70)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9267 / 11264 correct (82.27)
+INFO:root:epoche 31, loss = 0.336645
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28403 / 33856 correct (83.89)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9373 / 11264 correct (83.21)
+INFO:root:epoche 32, loss = 0.357392
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28138 / 33856 correct (83.11)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9285 / 11264 correct (82.43)
+INFO:root:epoche 33, loss = 0.342280
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28284 / 33856 correct (83.54)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9331 / 11264 correct (82.84)
+INFO:root:epoche 34, loss = 0.316765
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27937 / 33856 correct (82.52)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9220 / 11264 correct (81.85)
+INFO:root:epoche 35, loss = 0.196317
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28247 / 33856 correct (83.43)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9323 / 11264 correct (82.77)
+INFO:root:epoche 36, loss = 0.501124
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28064 / 33856 correct (82.89)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9266 / 11264 correct (82.26)
+INFO:root:epoche 37, loss = 0.509631
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28324 / 33856 correct (83.66)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9362 / 11264 correct (83.11)
+INFO:root:epoche 38, loss = 0.334383
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28259 / 33856 correct (83.47)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9339 / 11264 correct (82.91)
+INFO:root:epoche 39, loss = 0.443417
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28105 / 33856 correct (83.01)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9293 / 11264 correct (82.50)
+INFO:root:epoche 40, loss = 0.353467
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28450 / 33856 correct (84.03)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9392 / 11264 correct (83.38)
+INFO:root:epoche 41, loss = 0.822311
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28132 / 33856 correct (83.09)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9293 / 11264 correct (82.50)
+INFO:root:epoche 42, loss = 0.279526
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28176 / 33856 correct (83.22)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9278 / 11264 correct (82.37)
+INFO:root:epoche 43, loss = 0.384682
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28253 / 33856 correct (83.45)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9327 / 11264 correct (82.80)
+INFO:root:epoche 44, loss = 0.305863
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28171 / 33856 correct (83.21)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9295 / 11264 correct (82.52)
+INFO:root:epoche 45, loss = 0.415876
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28542 / 33856 correct (84.30)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9433 / 11264 correct (83.74)
+INFO:root:epoche 46, loss = 0.193721
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28182 / 33856 correct (83.24)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9277 / 11264 correct (82.36)
+INFO:root:epoche 47, loss = 0.396039
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28070 / 33856 correct (82.91)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9257 / 11264 correct (82.18)
+INFO:root:epoche 48, loss = 0.355116
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28372 / 33856 correct (83.80)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9388 / 11264 correct (83.35)
+INFO:root:epoche 49, loss = 0.337250
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28144 / 33856 correct (83.13)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9253 / 11264 correct (82.15)
+INFO:root:epoche 50, loss = 0.391904
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28346 / 33856 correct (83.73)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9346 / 11264 correct (82.97)
+INFO:root:epoche 51, loss = 0.335422
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27712 / 33856 correct (81.85)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9174 / 11264 correct (81.45)
+INFO:root:epoche 52, loss = 0.301042
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28454 / 33856 correct (84.04)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9401 / 11264 correct (83.46)
+INFO:root:epoche 53, loss = 0.437533
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28341 / 33856 correct (83.71)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9383 / 11264 correct (83.30)
+INFO:root:epoche 54, loss = 0.437707
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27831 / 33856 correct (82.20)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9194 / 11264 correct (81.62)
+INFO:root:epoche 55, loss = 0.323412
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28345 / 33856 correct (83.72)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9372 / 11264 correct (83.20)
+INFO:root:epoche 56, loss = 0.340110
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28402 / 33856 correct (83.89)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9384 / 11264 correct (83.31)
+INFO:root:epoche 57, loss = 0.445469
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28088 / 33856 correct (82.96)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9287 / 11264 correct (82.45)
+INFO:root:epoche 58, loss = 0.353115
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28097 / 33856 correct (82.99)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9262 / 11264 correct (82.23)
+INFO:root:epoche 59, loss = 0.472939
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27944 / 33856 correct (82.54)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9269 / 11264 correct (82.29)
+INFO:root:epoche 60, loss = 0.231729
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28432 / 33856 correct (83.98)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9368 / 11264 correct (83.17)
+INFO:root:epoche 61, loss = 0.334033
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28439 / 33856 correct (84.00)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9388 / 11264 correct (83.35)
+INFO:root:epoche 62, loss = 0.340499
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28358 / 33856 correct (83.76)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9380 / 11264 correct (83.27)
+INFO:root:epoche 63, loss = 0.315861
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28148 / 33856 correct (83.14)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9296 / 11264 correct (82.53)
+INFO:root:epoche 64, loss = 0.311147
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28424 / 33856 correct (83.96)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9417 / 11264 correct (83.60)
+INFO:root:epoche 65, loss = 0.345280
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27867 / 33856 correct (82.31)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9214 / 11264 correct (81.80)
+INFO:root:epoche 66, loss = 0.456638
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28046 / 33856 correct (82.84)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9286 / 11264 correct (82.44)
+INFO:root:epoche 67, loss = 0.408388
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28463 / 33856 correct (84.07)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9409 / 11264 correct (83.53)
+INFO:root:epoche 68, loss = 0.358063
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28415 / 33856 correct (83.93)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9378 / 11264 correct (83.26)
+INFO:root:epoche 69, loss = 0.332673
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28285 / 33856 correct (83.55)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9327 / 11264 correct (82.80)
+INFO:root:epoche 70, loss = 0.270864
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28003 / 33856 correct (82.71)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9260 / 11264 correct (82.21)
+INFO:root:epoche 71, loss = 0.436455
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28280 / 33856 correct (83.53)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9366 / 11264 correct (83.15)
+INFO:root:epoche 72, loss = 0.301409
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28451 / 33856 correct (84.04)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9395 / 11264 correct (83.41)
+INFO:root:epoche 73, loss = 0.366561
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28411 / 33856 correct (83.92)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9381 / 11264 correct (83.28)
+INFO:root:epoche 74, loss = 0.397659
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28264 / 33856 correct (83.48)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9299 / 11264 correct (82.56)
+INFO:root:epoche 75, loss = 0.457438
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28404 / 33856 correct (83.90)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9376 / 11264 correct (83.24)
+INFO:root:epoche 76, loss = 0.312446
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27985 / 33856 correct (82.66)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9253 / 11264 correct (82.15)
+INFO:root:epoche 77, loss = 0.359402
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28437 / 33856 correct (83.99)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9399 / 11264 correct (83.44)
+INFO:root:epoche 78, loss = 0.532926
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28461 / 33856 correct (84.06)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9399 / 11264 correct (83.44)
+INFO:root:epoche 79, loss = 0.315666
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28296 / 33856 correct (83.58)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9328 / 11264 correct (82.81)
+INFO:root:epoche 80, loss = 0.281798
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28428 / 33856 correct (83.97)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9381 / 11264 correct (83.28)
+INFO:root:epoche 81, loss = 0.392293
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28130 / 33856 correct (83.09)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9279 / 11264 correct (82.38)
+INFO:root:epoche 82, loss = 0.347062
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28350 / 33856 correct (83.74)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9364 / 11264 correct (83.13)
+INFO:root:epoche 83, loss = 0.371324
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28144 / 33856 correct (83.13)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9299 / 11264 correct (82.56)
+INFO:root:epoche 84, loss = 0.425414
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28466 / 33856 correct (84.08)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9397 / 11264 correct (83.43)
+INFO:root:epoche 85, loss = 0.261711
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28580 / 33856 correct (84.42)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9451 / 11264 correct (83.90)
+INFO:root:epoche 86, loss = 0.285125
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28061 / 33856 correct (82.88)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9227 / 11264 correct (81.92)
+INFO:root:epoche 87, loss = 0.319681
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28350 / 33856 correct (83.74)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9353 / 11264 correct (83.03)
+INFO:root:epoche 88, loss = 0.319988
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28348 / 33856 correct (83.73)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9400 / 11264 correct (83.45)
+INFO:root:epoche 89, loss = 0.372869
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28327 / 33856 correct (83.67)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9369 / 11264 correct (83.18)
+INFO:root:epoche 90, loss = 0.292363
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28426 / 33856 correct (83.96)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9373 / 11264 correct (83.21)
+INFO:root:epoche 91, loss = 0.331798
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28099 / 33856 correct (83.00)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9303 / 11264 correct (82.59)
+INFO:root:epoche 92, loss = 0.556153
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28344 / 33856 correct (83.72)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9355 / 11264 correct (83.05)
+INFO:root:epoche 93, loss = 0.333102
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27943 / 33856 correct (82.53)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9230 / 11264 correct (81.94)
+INFO:root:epoche 94, loss = 0.334525
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28414 / 33856 correct (83.93)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9379 / 11264 correct (83.27)
+INFO:root:epoche 95, loss = 0.354792
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28423 / 33856 correct (83.95)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9382 / 11264 correct (83.29)
+INFO:root:epoche 96, loss = 0.415290
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27959 / 33856 correct (82.58)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9239 / 11264 correct (82.02)
+INFO:root:epoche 97, loss = 0.321363
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28252 / 33856 correct (83.45)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9326 / 11264 correct (82.79)
+INFO:root:epoche 98, loss = 0.432715
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28379 / 33856 correct (83.82)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9395 / 11264 correct (83.41)
+INFO:root:epoche 99, loss = 0.417944
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 28538 / 33856 correct (84.29)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9422 / 11264 correct (83.65)
+INFO:root:Best val Acc: 0.839045
+INFO:root:1dcnn_Adam_L2_0.001:
+    - model name: 1dcnn
+    - optimizer: Adam
+    - learning rate: 0.001
+    - device : cuda:3
+    - epochs: 100
+ 
+INFO:root:epoche 0, loss = 0.505956
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26610 / 33856 correct (78.60)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8852 / 11264 correct (78.59)
+INFO:root:epoche 1, loss = 0.481409
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26662 / 33856 correct (78.75)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8851 / 11264 correct (78.58)
+INFO:root:epoche 2, loss = 0.513317
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26503 / 33856 correct (78.28)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8775 / 11264 correct (77.90)
+INFO:root:epoche 3, loss = 0.423172
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26817 / 33856 correct (79.21)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8914 / 11264 correct (79.14)
+INFO:root:epoche 4, loss = 0.445895
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26883 / 33856 correct (79.40)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8934 / 11264 correct (79.31)
+INFO:root:epoche 5, loss = 0.444006
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27249 / 33856 correct (80.48)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9042 / 11264 correct (80.27)
+INFO:root:epoche 6, loss = 0.483008
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 25890 / 33856 correct (76.47)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8529 / 11264 correct (75.72)
+INFO:root:epoche 7, loss = 0.399540
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26856 / 33856 correct (79.32)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8934 / 11264 correct (79.31)
+INFO:root:epoche 8, loss = 0.366445
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26958 / 33856 correct (79.63)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8924 / 11264 correct (79.23)
+INFO:root:epoche 9, loss = 0.441392
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26744 / 33856 correct (78.99)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8908 / 11264 correct (79.08)
+INFO:root:epoche 10, loss = 0.514107
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27150 / 33856 correct (80.19)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9017 / 11264 correct (80.05)
+INFO:root:epoche 11, loss = 0.523839
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27095 / 33856 correct (80.03)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8985 / 11264 correct (79.77)
+INFO:root:epoche 12, loss = 0.400571
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26947 / 33856 correct (79.59)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8908 / 11264 correct (79.08)
+INFO:root:epoche 13, loss = 0.439211
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 26685 / 33856 correct (78.82)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8809 / 11264 correct (78.20)
+INFO:root:epoche 14, loss = 0.381493
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27295 / 33856 correct (80.62)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9021 / 11264 correct (80.09)
+INFO:root:epoche 15, loss = 0.383103
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27143 / 33856 correct (80.17)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8965 / 11264 correct (79.59)
+INFO:root:epoche 16, loss = 0.492839
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27195 / 33856 correct (80.33)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9009 / 11264 correct (79.98)
+INFO:root:epoche 17, loss = 0.360736
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27174 / 33856 correct (80.26)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8989 / 11264 correct (79.80)
+INFO:root:epoche 18, loss = 0.401307
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27251 / 33856 correct (80.49)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9041 / 11264 correct (80.26)
+INFO:root:epoche 19, loss = 0.291943
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27113 / 33856 correct (80.08)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8979 / 11264 correct (79.71)
+INFO:root:epoche 20, loss = 0.311173
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27272 / 33856 correct (80.55)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9047 / 11264 correct (80.32)
+INFO:root:epoche 21, loss = 0.360752
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27380 / 33856 correct (80.87)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9039 / 11264 correct (80.25)
+INFO:root:epoche 22, loss = 0.435344
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27231 / 33856 correct (80.43)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9035 / 11264 correct (80.21)
+INFO:root:epoche 23, loss = 0.376292
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27381 / 33856 correct (80.87)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9093 / 11264 correct (80.73)
+INFO:root:epoche 24, loss = 0.349978
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27287 / 33856 correct (80.60)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9032 / 11264 correct (80.18)
+INFO:root:epoche 25, loss = 0.334071
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27341 / 33856 correct (80.76)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9073 / 11264 correct (80.55)
+INFO:root:epoche 26, loss = 0.424088
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27240 / 33856 correct (80.46)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9041 / 11264 correct (80.26)
+INFO:root:epoche 27, loss = 0.427076
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27212 / 33856 correct (80.38)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9029 / 11264 correct (80.16)
+INFO:root:epoche 28, loss = 0.372673
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27353 / 33856 correct (80.79)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9062 / 11264 correct (80.45)
+INFO:root:epoche 29, loss = 0.393782
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27164 / 33856 correct (80.23)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9005 / 11264 correct (79.94)
+INFO:root:epoche 30, loss = 0.385295
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27203 / 33856 correct (80.35)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8982 / 11264 correct (79.74)
+INFO:root:epoche 31, loss = 0.393181
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27401 / 33856 correct (80.93)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9077 / 11264 correct (80.58)
+INFO:root:epoche 32, loss = 0.458182
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27361 / 33856 correct (80.82)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9017 / 11264 correct (80.05)
+INFO:root:epoche 33, loss = 0.445542
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27415 / 33856 correct (80.98)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9088 / 11264 correct (80.68)
+INFO:root:epoche 34, loss = 0.366112
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27380 / 33856 correct (80.87)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9040 / 11264 correct (80.26)
+INFO:root:epoche 35, loss = 0.357042
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27195 / 33856 correct (80.33)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9000 / 11264 correct (79.90)
+INFO:root:epoche 36, loss = 0.331012
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27265 / 33856 correct (80.53)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 8982 / 11264 correct (79.74)
+INFO:root:epoche 37, loss = 0.405921
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27435 / 33856 correct (81.03)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9099 / 11264 correct (80.78)
+INFO:root:epoche 38, loss = 0.256107
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27437 / 33856 correct (81.04)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9050 / 11264 correct (80.34)
+INFO:root:epoche 39, loss = 0.488029
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27634 / 33856 correct (81.62)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9130 / 11264 correct (81.05)
+INFO:root:epoche 40, loss = 0.393234
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27388 / 33856 correct (80.90)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9052 / 11264 correct (80.36)
+INFO:root:epoche 41, loss = 0.407510
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27606 / 33856 correct (81.54)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9068 / 11264 correct (80.50)
+INFO:root:epoche 42, loss = 0.288668
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27614 / 33856 correct (81.56)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9130 / 11264 correct (81.05)
+INFO:root:epoche 43, loss = 0.339628
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27625 / 33856 correct (81.60)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9098 / 11264 correct (80.77)
+INFO:root:epoche 44, loss = 0.464257
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27773 / 33856 correct (82.03)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9153 / 11264 correct (81.26)
+INFO:root:epoche 45, loss = 0.430864
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27768 / 33856 correct (82.02)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9124 / 11264 correct (81.00)
+INFO:root:epoche 46, loss = 0.420012
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27845 / 33856 correct (82.25)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9156 / 11264 correct (81.29)
+INFO:root:epoche 47, loss = 0.392135
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27836 / 33856 correct (82.22)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9184 / 11264 correct (81.53)
+INFO:root:epoche 48, loss = 0.349446
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27882 / 33856 correct (82.35)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9183 / 11264 correct (81.53)
+INFO:root:epoche 49, loss = 0.252906
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27950 / 33856 correct (82.56)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9232 / 11264 correct (81.96)
+INFO:root:epoche 50, loss = 0.309795
+INFO:root:Checking accuracy on train set: 
+INFO:root:Got 27939 / 33856 correct (82.52)
+INFO:root:Checking accuracy on val set: 
+INFO:root:Got 9192 / 11264 correct (81.61)
