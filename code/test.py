@@ -17,17 +17,22 @@ for col in set(adult.columns) - set(adult.describe().columns):
     adult[col] = adult[col].astype('category')
 
 
+
 adult = adult[(adult.values.astype(str) == '?').sum(axis = 1) == 0]
+
 
 cat_columns = adult.select_dtypes(['category']).columns
 adult[cat_columns] = adult[cat_columns].apply(lambda x: x.cat.codes)
+
 
 adult_data = adult.drop(columns = ['income'])
 adult_label = adult.income
 
 
 train_data, test_data, train_label, test_label = train_test_split(adult_data, adult_label, test_size  = 0.25)
-np.save("preprocessed_data/train_data.npy", train_data.values)
-np.save("preprocessed_data/test_data.npy", test_data.values)
-np.save("preprocessed_data/train_label.npy", train_label.values)
-np.save("preprocessed_data/test_label.npy", test_label.values)
+# np.save("preprocessed_data/train_data.npy", train_data.values)
+# np.save("preprocessed_data/test_data.npy", test_data.values)
+# np.save("preprocessed_data/train_label.npy", train_label.values)
+# np.save("preprocessed_data/test_label.npy", test_label.values)
+
+print(test_data.shape)
