@@ -24,8 +24,8 @@ def check_accuracy(device, loader, model, phase):
     model.eval()  # set model to evaluation mode
     with torch.no_grad():
         if phase == "train":
-            for x, positive_img1, positive_img2, negative_img, y in loader:
-                x = x.to(device=device)  # move to device, e.g. GPU
+            for x, y in loader:
+                x = x.to(device=device).float()  # move to device, e.g. GPU
                 y = y.to(device=device)
                 scores = model(x)
                 _, preds = scores.max(1)
@@ -33,7 +33,7 @@ def check_accuracy(device, loader, model, phase):
                 num_samples += preds.size(0)
         elif phase == "val":
             for x, y in loader:
-                x = x.to(device=device)  # move to device, e.g. GPU
+                x = x.to(device=device).float()   # move to device, e.g. GPU
                 y = y.to(device=device)
                 scores = model(x)
                 _, preds = scores.max(1)
@@ -69,11 +69,9 @@ def train(model, optimizer, dataloaders, device, epochs):
         for t, (x, y) in enumerate(dataloaders["train"]):
             model.train()  # put model to training mode
             x = x.to(device=device).float()
-            y = y.to(device=device).float()
-            
-            y_ = model(x).reshape(-1)
-
-            loss = F.binary_cross_entropy(y_, y)
+            y = y.to(device=device).long()
+            y_ = model(x)
+            loss = F.cross_entropy(y_, y)
 
             # Zero out all of the gradients for the variables which the optimizer will update.
             optimizer.zero_grad()
@@ -85,8 +83,8 @@ def train(model, optimizer, dataloaders, device, epochs):
             optimizer.step()
 
         logging.info('epoche %d, loss = %f' % (e, loss.item()))
-        # train_acc = check_accuracy(device, dataloaders["train"], model.feature_extractor, "train")
-        test_acc = check_accuracy(device, dataloaders["val"], model.feature_extractor, "val")
+        train_acc = check_accuracy(device, dataloaders["train"], model, "train")
+        test_acc = check_accuracy(device, dataloaders["val"], model, "val")
         if test_acc > best_acc:
             best_acc = test_acc
             best_model_wts = copy.deepcopy(model.state_dict())
@@ -149,9 +147,9 @@ def display_one_batch(image_dataset, dataloader):
 task_name = "test_run2"
 model_name = "1dcnn"
 optimizer_name = "Adam"
-lr = 0.00001
+lr = 0.001
 device = torch.device("cuda:3" if torch.cuda.is_available() else "cpu")
-epochs = 300
+epochs = 100
 logging.info(
     """{}:
     - model name: {}
@@ -170,13 +168,13 @@ logging.info(
 
 if __name__ == "__main__":
     model = cnn.cnn()
-    model.initialize()
+    # model.initialize()
 
     # get the param to update
     params_to_update = []
     for name, param in model.named_parameters():
-                if param.requires_grad == True:
-                    params_to_update.append(param)
+        param.requires_grad = True
+        params_to_update.append(param)
     
 
 
@@ -194,6 +192,7 @@ if __name__ == "__main__":
                                     device = device, 
                                     epochs = epochs
                                     )
+    json.dump(open("rec_adam_no_L2.json", "w"), rec)
     
     
     

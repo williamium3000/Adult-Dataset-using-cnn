@@ -17,8 +17,6 @@ test_label = np.load("preprocessed_data/test_label.npy", allow_pickle=True)
 class adultDataset(Dataset):
     def __init__(self, data, label):
         self.data = data[:, np.newaxis, :]
-        label[label==">50K"] = 1
-        label[label=="<=50K"] = 0
         self.label = label
         
         
